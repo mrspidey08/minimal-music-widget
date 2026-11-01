@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Minimal Music Widget</string>
+    <string name="widget_name">Minimal Music Widget (4:1)</string>
+    <string name="widget_description">Sharp &amp; minimal 4:1 music playback controls.</string>
+    <string name="pref_widget_text_key">pref_widget_text</string>
+    <string name="default_widget_text">MUSIC IS LIFE</string>
+</resources>

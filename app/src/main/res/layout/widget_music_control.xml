@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:gravity="center">
+
+    <!-- Minimal top header displaying Song Title or Custom Text -->
+    <TextView
+        android:id="@+id/widget_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MUSIC IS LIFE"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif-condensed"
+        android:letterSpacing="0.14"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textAllCaps="true" />
+
+    <!-- Sharp, big modern playback controls (4:1 horizontal layout) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:baselineAligned="false">
+
+        <!-- PLAY BUTTON -->
+        <ImageButton
+            android:id="@+id/btn_play"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_play"
+            android:scaleType="fitCenter"
+            android:padding="4dp"
+            android:contentDescription="Play" />
+
+        <!-- PAUSE BUTTON -->
+        <ImageButton
+            android:id="@+id/btn_pause"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_pause"
+            android:scaleType="fitCenter"
+            android:padding="4dp"
+            android:contentDescription="Pause" />
+
+        <!-- PREVIOUS BUTTON -->
+        <ImageButton
+            android:id="@+id/btn_prev"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_prev"
+            android:scaleType="fitCenter"
+            android:padding="4dp"
+            android:contentDescription="Previous" />
+
+        <!-- NEXT BUTTON -->
+        <ImageButton
+            android:id="@+id/btn_next"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_next"
+            android:scaleType="fitCenter"
+            android:padding="4dp"
+            android:contentDescription="Next" />
+
+    </LinearLayout>
+</LinearLayout>

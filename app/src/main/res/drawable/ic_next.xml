@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Right-pointing triangle and right vertical bar -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M 8,6 L 29,24 L 8,42 Z M 32,6 H 40 V 42 H 32 Z" />
+</vector>
