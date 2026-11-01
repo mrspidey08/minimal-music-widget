@@ -3,6 +3,8 @@
 A modern, ultra-lightweight Android music widget app built with sharp geometric controls, zero bloat, pure black AMOLED styling, and dynamic song title / custom text heading support.
 
 ---
+## Preview
+<img width="1080" height="2392" alt="UI" src="https://github.com/user-attachments/assets/52bb70ef-c2e0-47db-8895-b7033760a986" />
 
 ## ✨ Features
 
